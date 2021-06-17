@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalk</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form name="Kalk">
+		<table border="4">
+			<tr>
+				<td>
+					<input type="text" name="Numbers" size="16">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" value="  1  " onclick="document.Kalk.Numbers.value += '1'">
+					<input type="button" value="  2  " onclick="document.Kalk.Numbers.value += '2'">
+					<input type="button" value="  3  " onclick="document.Kalk.Numbers.value += '3'">
+					<input type="button" value="  +  " onclick="document.Kalk.Numbers.value += ' + '"> 
+					<br>
+					<input type="button" value="  4  " onclick="document.Kalk.Numbers.value += '4'">
+					<input type="button" value="  5  " onclick="document.Kalk.Numbers.value += '5'">
+					<input type="button" value="  6  " onclick="document.Kalk.Numbers.value += '6'">
+					<input type="button" value="  -  " onclick="document.Kalk.Numbers.value += ' - '"> 
+					<br>
+					<input type="button" value="  7  " onclick="document.Kalk.Numbers.value += '7'">
+					<input type="button" value="  8  " onclick="document.Kalk.Numbers.value += '8'">
+					<input type="button" value="  9  " onclick="document.Kalk.Numbers.value += '9'">
+					<input type="button" value="  x  " onclick="document.Kalk.Numbers.value += ' * '"> 
+					<br>
+					<input type="button" value="  C  " onclick="document.Kalk.Numbers.value = ''">
+					<input type="button" value="  0  " onclick="document.Kalk.Numbers.value += '0'">
+					<input type="button" value="  =  " onclick="document.Kalk.Numbers.value = eval(Kalk.Numbers.value)">
+					<input type="button" value="  /  " onclick="document.Kalk.Numbers.value += ' / '"> 
+				</td>
+			</tr>
+		</table>
+
+	</form>
+
+</body>
+</html>
